@@ -10,6 +10,9 @@ Work through them in order. They live in [updatedlangchain/](updatedlangchain/).
 |---|----------|----------------|
 | 1 | [1-langchainintro.ipynb](updatedlangchain/1-langchainintro.ipynb) | First calls to an Azure OpenAI chat model and a basic agent with `create_agent`. |
 | 2 | [2-modelintegration.ipynb](updatedlangchain/2-modelintegration.ipynb) | Creating models with `AzureChatOpenAI` and `init_chat_model`. |
+| 3 | [3-tools.ipynb](updatedlangchain/3-tools.ipynb) | Defining tools, letting models call them, and running tool execution loops. |
+| 4 | [4-messages.ipynb](updatedlangchain/4-messages.ipynb) | Message types (system, human, AI, tool) and text vs. message prompts. |
+| 5 | [5-structuredoutput.ipynb](updatedlangchain/5-structuredoutput.ipynb) | Getting structured responses as Pydantic models, TypedDict, and dataclasses. |
 | 6 | [6-middleware.ipynb](updatedlangchain/6-middleware.ipynb) | Agent middleware: conversation summarization to manage token budgets, and human-in-the-loop approval for tool calls. |
 
 ## Project layout
